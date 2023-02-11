@@ -13,7 +13,7 @@ $email=";
 $message=";
 $conn= mysquli_connect($host, $name, $email, $message);
 if($conn)
-{
+
 die( 'could not connect:" .mysqli_error());
 }
 echo 'connected successfully';
