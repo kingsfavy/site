@@ -108,9 +108,9 @@ container {
   color:white;
 }
 img{
-  
-  width:360px;
-  height:100vh;
+  text-align:center;
+  width:auto;
+  height:auto;
 }
 .horizo{
   border-style:dotted none none none;
@@ -159,10 +159,10 @@ img{
  position:absolute;
   z-index:0;
   top:49%;
-  left:30%;
+  left:15%;
   width:auto;
   height:auto;
-  font-size:18.9px;
+  font-size:30px;
   color:white;
   text-align:center;
 }
