@@ -10,7 +10,7 @@ body{
   width:100%;
   flex-wrap: wrap;
   margin:0;
-  background-color:black;
+  background:white;
 
 }
 .box{
@@ -52,7 +52,7 @@ container {
       }
       .dd:hover > .dd-contents {
         width:100%;
-         height:auto;
+         height:100%;
          flex:1;
       }
       .dd-contents > a {
@@ -140,10 +140,8 @@ img{
     padding-left:4%;
 }
 .profile-pic{
-  
   width:auto;
-
-  height:100vh;
+  height:auto;
   
 }
 #myContainer{
@@ -317,10 +315,6 @@ width:20%;
          text-decoration: none;
          color: black;
       }
-    @media only screen and(min-width: 480px) and (max-width:767px){.col-md-12 {width:100%}}
-    @media only screen and(max-width: 767px){.col-1-12{width:100%}}
-    
-    
     @keyframes myAnimation {
    from {
       left: 0px;
@@ -328,3 +322,14 @@ width:20%;
    to {
       right: 100px;
    }
+      @media only screen and (max-width:480px){img{width:auto;
+      height:100vh;
+          }
+      }
+
+      };
+      @media only screen and (min-width:1200px){img{width:auto;
+      height:100vh;
+         }
+      }
+      

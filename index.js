@@ -65,3 +65,6 @@ function myMove() {
     }
   }
 }
+function sendPostRequest(){
+  document.getElementById("mit"). innerHTML ="thank you for your contributions, you will reach out to you through your email.";
+}

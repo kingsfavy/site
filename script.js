@@ -1,2 +1,2 @@
-jquery("p").css("color","red");
+j
       
