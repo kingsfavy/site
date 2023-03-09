@@ -1,5 +1,7 @@
 
 .abut{
+ 
+  z-index:-1;
   font-size:20px;
   font-weight:bolder;
   color:orange;
@@ -20,12 +22,14 @@ container{
   flex-wrap:wrap;
 }
 .content{
+  z-index: -1;
   -webkit-animation: slide 3s alternate-reverse ease-in 0s 1 forwards;
   padding:0 15px 0 15px;
   width:90%;
   text-align:center;
 }
 .edu{
+  z-index: -1;
   font-size:20px;
   font-weight:bolder;
   color:orange;
@@ -47,6 +51,8 @@ img{
   width:100%
 }
 p{
+  position:sticky;
+  z-index: 0;
  font-size:15px;
   color:white;
   -webkit-animation: slide 3s reverse  1 both;
@@ -62,6 +68,7 @@ p{
   margin:0;
 }
 .web{
+  z-index: -1;
   text-align: center;
   color:white;
  -webkit-animation: slide 5s reverse ease-in 1 backwards;
@@ -80,7 +87,8 @@ p{
          visibility: visible;
       }
       .lightbox-content {
-        
+        z-index: 2;
+        position:relative;
          display: table-cell;
          vertical-align: middle; 
          text-align: center;
